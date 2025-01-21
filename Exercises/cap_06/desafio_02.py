@@ -21,7 +21,10 @@
 
 # Output: 🌑
 
-#---- sulocao: -------
+# You might need to use an if statement in order to return the correct Moon emoji.
+
+#---- sulocao: ------
+
 def moon_phase(phase):
     if phase == 'New Moon':
         return '🌑'
@@ -41,12 +44,5 @@ def moon_phase(phase):
         return '🌘'
     else:
         return 'Invalid moon phase'
-
+    
 print(moon_phase('New Moon'))  # 🌑
-print(moon_phase('Waxing Crescent'))  # 🌒
-print(moon_phase('First Quarter'))  # 🌓
-print(moon_phase('Waxing Gibbous'))  # 🌔
-print(moon_phase('Full Moon'))  # 🌕
-print(moon_phase('Waning Gibbous'))  # 🌖
-print(moon_phase('Last Quarter'))  # 🌗
-print(moon_phase('Waning Crescent'))  # 🌘
