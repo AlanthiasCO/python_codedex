@@ -1,0 +1,15 @@
+ Sobre o projeto:
+ Crie jogo um que guie o jogador através de uma aventura cativante de mini-jogo! Em cada etapa da
+ aventura, o jogador deve ser apresentado a 2 ou mais opções sobre para onde ir a seguir.
+
+ Seja o mais criativo possível com isso, mas certifique-se de que seu código funcione!
+
+ Algumas ideias incluem:
+
+ Uma aventura baseada no espaço de uma tripulação de indivíduos curiosos explorando uma galáxia desconhecida.
+ Uma história de "Um Dia na Vida" que guia você através das escolhas que o personagem principal faz com base
+ em condições como a hora do dia, as ações que o jogador toma, etc.
+ Um mini-RPG clássico (jogo de interpretação de papéis) com pontos de vida (hp), movimentos de personagem
+ como atacar/bloquear/curar e NPCs (personagens não-jogadores) que atacam com base em um gerador de números aleatórios.
+
+
