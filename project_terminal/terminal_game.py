@@ -19,13 +19,13 @@ if choice == "1":
     choice = input("Enter 1 or 2: ")
     if choice == "1":
         print("You decided to fight the animal!")
-        if random.randint(0, 1) == 0:
+        if random(0, 1) == 0:
             print("You defeated the animal! You win!")
         else:
             print("The animal hit you and you start bleeding.")
             sub_choice = input("Do you want to continue fighting (1) or run away (2)? ")
             if sub_choice == "1":
-                if random.randint(0, 1) == 0:
+                if random(0, 1) == 0:
                     print("You defeated the animal! You win!")
                 else:
                     print("The animal defeated you. Game over.")
@@ -50,3 +50,7 @@ elif choice == "2":
         print("Invalid choice. Please try again.")
 else:
     print("Invalid choice. Please try again.")
+
+# TO-DO: Add more paths, choices, and outcomes to the game
+# TO-DO: Improve the game with more complex logic and interactions
+# TO-DO: Add a scoring system and multiple levels to the game
