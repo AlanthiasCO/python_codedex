@@ -19,13 +19,15 @@ if choice == "1":
     choice = input("Enter 1 or 2: ")
     if choice == "1":
         print("You decided to fight the animal!")
-        if random(0, 1) == 0:
+        # use random.randint (Return a number between 0 and 1 (both included))
+        # source: https://www.w3schools.com/python/ref_random_randint.asp
+        if random.randint(0, 1) == 0:
             print("You defeated the animal! You win!")
         else:
             print("The animal hit you and you start bleeding.")
             sub_choice = input("Do you want to continue fighting (1) or run away (2)? ")
             if sub_choice == "1":
-                if random(0, 1) == 0:
+                if random.randint(0, 1) == 0:
                     print("You defeated the animal! You win!")
                 else:
                     print("The animal defeated you. Game over.")
