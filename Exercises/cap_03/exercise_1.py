@@ -27,7 +27,7 @@
 # Solução:
 import random
 
-num = random.randint(0, 1)   # Generates a random number that's either 0 or 1
+num = random.randint(0, 1)   # Gerar um número aleatório que é 0 ou 1
 
 if num > 0.5:
     print('Heads')

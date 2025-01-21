@@ -42,5 +42,3 @@ elif ph < 7:
     print('Ácido')
 else:
     print('Neutro')
-
-# Output: Ácido
