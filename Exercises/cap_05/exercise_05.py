@@ -30,7 +30,3 @@ playlist = [
 
 for song in playlist:
     print(song)
-
-# Output:
-# Porches - rangerover
-# Mount Eerie - You Swan, Go On
