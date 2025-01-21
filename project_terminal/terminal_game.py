@@ -22,7 +22,17 @@ if choice == "1":
         if random.randint(0, 1) == 0:
             print("You defeated the animal! You win!")
         else:
-            print("The animal defeated you. Game over.")
+            print("The animal hit you and you start bleeding.")
+            sub_choice = input("Do you want to continue fighting (1) or run away (2)? ")
+            if sub_choice == "1":
+                if random.randint(0, 1) == 0:
+                    print("You defeated the animal! You win!")
+                else:
+                    print("The animal defeated you. Game over.")
+            elif sub_choice == "2":
+                print("You ran away safely. You win!")
+            else:
+                print("Invalid choice. The animal defeated you. Game over.")
     elif choice == "2":
         print("You ran away safely. You win!")
     else:
